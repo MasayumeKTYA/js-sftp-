@@ -1,0 +1,9 @@
+{
+  "host": "", //ip,
+  "port": 22, //端口
+  "username": "", //ssh账号
+  "password": "", //ssh密码
+  "remotePath": "/path/your/data/xxx",
+  "backupLocalPath": "E:/backups", //备份的本地路径 当前是备份到 E盘下面的backups 内部生成一个文件夹根据 remotePath最后一位创建文件 其备份路径就为 E:/backups/xxx
+  "isBackup": true //是否备份
+}
